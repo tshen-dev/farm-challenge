@@ -1,6 +1,6 @@
 ## About The Project
 
-This is my challenge project to apply in Farm.
+This is my challenge project to apply in Fram.
 
 Thanks for your time to review it.
 
@@ -20,7 +20,7 @@ You need [Docker](https://www.docker.com/) to run application
    ```sh
    docker-compose up
    ```
-3. Import Postman collection from `Farm challenge.postman_collection.json` use the `app.authorization-key` in `application config` for authorization (default: `uwlkxjekfjvhjweylgxc`).
+3. Import Postman collection from `Fram challenge.postman_collection.json` use the `app.authorization-key` in `application config` for authorization (default: `uwlkxjekfjvhjweylgxc`).
 
 4. Stop and remove the application deployed
     ```sh

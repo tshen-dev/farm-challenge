@@ -1,12 +1,12 @@
-package com.farm.challenge;
+package com.fram.challenge;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FarmChallengeApplication {
+public class FramChallengeApplication {
 
   public static void main(String[] args) {
-    SpringApplication.run(FarmChallengeApplication.class, args);
+    SpringApplication.run(FramChallengeApplication.class, args);
   }
 }

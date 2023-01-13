@@ -7,19 +7,19 @@ services:
     restart: always
     environment:
       POSTGRES_PASSWORD: 1234
-      POSTGRES_DB: farm-challenge
+      POSTGRES_DB: fram-challenge
     volumes:
       - "./initdb/:/docker-entrypoint-initdb.d/"
     networks:
-      - farm-challenge
+      - fram-challenge
   application:
-    image: farm-challenge
+    image: fram-challenge
     build: .
     container_name: application
     restart: always
     networks:
-      - farm-challenge
+      - fram-challenge
     ports:
       - "8080:8080"
 networks:
-  farm-challenge:
+  fram-challenge:

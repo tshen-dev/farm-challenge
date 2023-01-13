@@ -1,6 +1,6 @@
-package com.farm.challenge.webconfig;
+package com.fram.challenge.webconfig;
 
-import com.farm.challenge.webconfig.interceptor.AuthenticationInterceptor;
+import com.fram.challenge.webconfig.interceptor.AuthenticationInterceptor;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;

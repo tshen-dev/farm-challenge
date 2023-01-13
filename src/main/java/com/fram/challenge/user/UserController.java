@@ -1,4 +1,4 @@
-package com.farm.challenge.user;
+package com.fram.challenge.user;
 
 import java.util.Map;
 import lombok.RequiredArgsConstructor;

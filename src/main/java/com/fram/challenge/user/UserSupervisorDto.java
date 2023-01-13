@@ -1,4 +1,4 @@
-package com.farm.challenge.user;
+package com.fram.challenge.user;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;

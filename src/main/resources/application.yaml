@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/farm-challenge
+    url: jdbc:postgresql://localhost:5432/fram-challenge
     username: postgres
     password: 1234
   jpa:
