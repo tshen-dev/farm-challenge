@@ -1,0 +1,25 @@
+version: "3.8"
+
+services:
+  database:
+    image: postgres:13.5
+    container_name: database
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: 1234
+      POSTGRES_DB: farm-challenge
+    volumes:
+      - "./initdb/:/docker-entrypoint-initdb.d/"
+    networks:
+      - farm-challenge
+  application:
+    image: farm-challenge
+    build: .
+    container_name: application
+    restart: always
+    networks:
+      - farm-challenge
+    ports:
+      - "8080:8080"
+networks:
+  farm-challenge:

@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/farm-challenge
+    username: postgres
+    password: 1234
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+app:
+  authorization-key: uwlkxjekfjvhjweylgxc
