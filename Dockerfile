@@ -1,4 +1,4 @@
-FROM gradle:jdk17-alpine AS builder
+FROM gradle:jdk17 AS builder
 RUN mkdir -p /source
 WORKDIR /source
 COPY . .
